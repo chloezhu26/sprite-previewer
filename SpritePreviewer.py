@@ -52,6 +52,10 @@ class SpritePreview(QMainWindow):
 
         self.setupUI()
 
+        self.showMaximized()
+
+        self.resize(800, 600)
+
     def setupUI(self):
         main_frame = QFrame()
         self.setCentralWidget(main_frame)
